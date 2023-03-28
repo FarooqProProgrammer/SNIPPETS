@@ -1,0 +1,78 @@
+.app_SideBar {
+  width: 250px;
+  height: 100vh;
+  box-shadow: 1px 2px 4px 4px rgb(219, 219, 219);
+  position: relative;
+  transition: 0.5s ease;
+}
+.app_SideBar .app__icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.app_SideBar .app__logo {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.app_SideBar .app__logo img {
+  width: 70px;
+  height: 70px;
+}
+.app_SideBar .app__logo p {
+  position: absolute;
+  font-size: 20px;
+  top: 55px;
+  font-weight: bold;
+}
+.app_SideBar .app__sidebar__Links {
+  width: 90%;
+  height: 420px;
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  padding-top: 10px;
+}
+.app_SideBar .app__sidebar__Links .app__sidebar__underLinks {
+  width: 100%;
+  height: 55px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 10px;
+}
+.app_SideBar .app__sidebar__Links .app__sidebar__underLinks p {
+  font-size: 20px;
+}
+@media (max-width: 990px) {
+  .app_SideBar {
+    width: 60px;
+  }
+  .app_SideBar .app__icon {
+    display: block;
+  }
+  .app_SideBar .app__icon svg {
+    font-size: 20px;
+  }
+  .app_SideBar .app__logo {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+  }
+  .app_SideBar .app__logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .app_SideBar .app__logo p {
+    display: none;
+  }
+  .app_SideBar .app__sidebar__Links {
+    width: 80%;
+    position: absolute;
+    left: 4px;
+  }
+  .app_SideBar .app__sidebar__Links .app__sidebar__underLinks p {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

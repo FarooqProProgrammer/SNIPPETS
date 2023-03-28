@@ -1,0 +1,51 @@
+/* -------------------- CUSTOM CSS ---------------------------------- */
+.flex {
+  display: flex;
+}
+
+.flex_start {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.px-20 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.bg__pink__gradient {
+  background: linear-gradient(146.2deg, #B97880 -1.77%, #DB72A1 78.99%);
+  border-radius: 39.5px 0px 0px 39.5px;
+}
+
+.text-white {
+  color: white;
+}
+.text-black {
+  color: #000;
+}
+.w_h_70 {
+  width: 70px;
+  height: 70px;
+}
+.w_h_40 {
+  width: 40px;
+  height: 40px;
+}
+
+/* -------------------- CUSTOM CSS ---------------------------------- */
